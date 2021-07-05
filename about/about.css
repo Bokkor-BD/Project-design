@@ -1,0 +1,97 @@
+.home {
+    background-image: url(../assets/img/cofee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    border: 20px solid #fff;
+    z-index: 1;
+}
+
+.home .header-top h5 {
+    color: #E5A656;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.home .header-top p {
+    color: #ddd;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.home .navigation-menu .menu {
+    margin: 20px 0;
+    background: rgba(48, 23, 15, .8);
+}
+
+.home .navigation-menu .menu a {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+
+.home .navigation-menu .menu a:hover {
+    color: #E5A656;
+    transition: .5s;
+}
+
+.home .navigation-menu .menu .active {
+    color: #E5A656;
+
+}
+
+.home .text-box .title-text {
+    width: 50%;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+.home .text-box h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.home .text-box span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.home .text-box p {
+    font-size: 14px;
+    color: black;
+    opacity: .7;
+}
+
+.home .Home-Image img {
+    /* margin-left: -300px; */
+    /* margin-bottom: 50px; */
+    /* height: 500px; */
+    width: 890px;
+    margin-left: 200px;
+    height: 400px;
+    
+    /* z-index: -1; */
+}
+
+
+.home .copyright{
+    margin: 20px 0;
+    background: rgba(48, 23, 15, .8);
+    text-align: center;
+    color: darkgray;
+    height: 60px;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
